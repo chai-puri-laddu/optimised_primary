@@ -9,7 +9,8 @@ public class optPrime {
         for(int i=5;i<=limit;i+=6){//every prime number is of the from of 6K+-1}
         if(n%i==0 || n%(i+2)==0) return false;
         
-        }
+        
+        // just some renadome changes}
         return true;
     }
     public static void main(String[] args) {
