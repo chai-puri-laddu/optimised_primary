@@ -8,8 +8,8 @@ public class optPrime {
         if(n%2==0 || n%3==0) return false;
         for(int i=5;i<=limit;i+=6){//every prime number is of the from of 6K+-1}
         if(n%i==0 || n%(i+2)==0) return false;
-        
-        
+        //bleh
+        }
         // just some renadome changes}
         return true;
     }
